@@ -1,3 +1,4 @@
+
 import { useAuth } from "@/lib/auth-context";
 import { useState } from "react";
 import { KeyboardAvoidingView, Platform, View, StyleSheet } from "react-native";
@@ -125,3 +126,4 @@ const styles = StyleSheet.create({
         marginTop: 8,
     },
 });
+
