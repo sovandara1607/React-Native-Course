@@ -1,5 +1,6 @@
 import { router, Stack } from "expo-router";
 import { useEffect, useState } from "react";
+import 'react-native-url-polyfill/auto';
 import { AuthProvider, useAuth } from "../lib/auth-context";
 
 function RouteGuard({ children }: {children: React.ReactNode}) {
